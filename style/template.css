@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #020618;
+  padding: 30px;
+}
+
+.container {
+  border: 3px solid rgb(71, 85, 105);
+  background: linear-gradient(135deg, rgb(15, 23, 42) 0%, rgb(30, 41, 59) 100%);
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 24px 16px;
+  border-radius: 3px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.box-1 {
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+}
+.box-2 {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+}
+.box-3 {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+.box-4 {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+}
+.box-5 {
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+}
+.box-6 {
+  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+}
+.box-7 {
+  background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
+}
+.box-8 {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+.box-9 {
+  background: linear-gradient(135deg, #64748b 0%, #475569 100%);
+}
